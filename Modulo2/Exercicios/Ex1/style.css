@@ -1,3 +1,8 @@
+@font-face {
+            font-family: 'idroid';
+            src: url('fontes/idroid.otf') format('opentype');
+
+}
 header {
     color: white;
     background-image: linear-gradient(to bottom, #3CD983, #164C2E);
@@ -23,6 +28,17 @@ nav > a:hover {
 main {
     margin: auto;
     width: 100;
+}
+
+h2 {
+    font-family: 'idroid';
+    color: #246340;
+}
+
+h3 {
+    font-family: 'idroid';
+    color: #246340;
+    background-image: linear-gradient(to right, #9dd3b585, #a1d4b815);
 }
 
 p {
