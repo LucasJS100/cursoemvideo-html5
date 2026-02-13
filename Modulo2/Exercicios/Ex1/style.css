@@ -71,8 +71,10 @@ main {
 }
 
 ul {
-    width: 350px;
-    list-style-type: '✓';
+    column-count: 2;
+    column-gap: 85px;
+    width: 700px;
+    list-style-type: '✓ ';
 }
 
 picture {
@@ -106,9 +108,11 @@ h3 {
 
 p {
     text-indent: 25px;
+    margin-left: 7px;
 }
 
 p#bg {
+    margin-left: 0px;
     text-align: left;
     color: white;
     background-color: #2FA866;
