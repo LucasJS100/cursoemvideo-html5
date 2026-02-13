@@ -26,8 +26,9 @@ nav > a:hover {
 }
 
 main {
+    width: 790px;
     margin: auto;
-    width: 100;
+    
 }
 
 h2 {
