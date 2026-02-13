@@ -63,9 +63,39 @@ nav > a:hover {
 
 
 main {
-    width: 790px;
     margin: auto;
-    width: 100;
+    max-width: 800px;
+    width: 95vw;
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+ul {
+    column-count: 2;
+    column-gap: 85px;
+    max-width: 700px;
+    min-width: 50vw;
+    list-style-type: '✓ ';
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#video { 
+    display: flex;
+    justify-content: center;
+    background-color: #164C2E;
+    align-items: center;
+    margin: auto;
+}
+h1 {
+    padding-top: 20px;
+    margin-top: 0px;
 }
 
 h2 {
