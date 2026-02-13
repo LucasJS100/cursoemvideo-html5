@@ -3,6 +3,11 @@
             src: url('fontes/idroid.otf') format('opentype');
 }
 
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 header {
     color: white;
     background-image: linear-gradient(to bottom, #3CD983, #164C2E);
@@ -17,6 +22,10 @@ header > nav {
 
 a {
     color: #749B85;
+}
+
+strong {
+    color: #84E1AD;
 }
 
 a::after {
@@ -35,6 +44,9 @@ body {
     min-height: 100vh;
     margin: auto;
 }
+nav {
+    padding-bottom: 12px;
+}
 
 nav > a {
     color: white;
@@ -43,13 +55,15 @@ nav > a {
 }
 
 nav > a:hover {
-    color: chartreuse;
+    background-color: #1A5C38;
+    color: #3CD983;
 }
 
 
 main {
     margin: auto;
-    width: 790px;
+    max-width: 800px;
+    width: 95vw;
     background-color: white;
     padding: 10px;
     border-bottom-left-radius: 10px;
