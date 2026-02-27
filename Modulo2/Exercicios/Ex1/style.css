@@ -164,7 +164,7 @@ img {
     width: 100%;
 }
 
-img.pequena {
+img#pequena {
     width: 40%;
 }
 
