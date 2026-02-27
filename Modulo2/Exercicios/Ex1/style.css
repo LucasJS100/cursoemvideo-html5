@@ -7,6 +7,8 @@
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -18,20 +20,11 @@ header {
 
 header > nav {
     text-align: left;
-    
 }
 
 a {
     font-weight: bold;
     color: #004916;
-}
-
-strong {
-    color: #004916;
-}
-
-strong#foot{
-    color: #84E1AD;
 }
 
 a::after {
@@ -53,9 +46,12 @@ body {
     background-color: #84E1AD;
     min-height: 100vh;
     margin: auto;
+    box-shadow: black 2px 2px 2px;
 }
 nav {
     padding-bottom: 12px;
+    background-color: #164C2E;
+    box-shadow: black 2px 2px 2px;
 }
 
 nav > a {
@@ -63,6 +59,8 @@ nav > a {
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
+    margin-left: 5px;
+    transition-duration: 0.5s;
 }
 
 nav > a:hover {
@@ -86,6 +84,7 @@ ul {
     column-gap: 85px;
     max-width: 700px;
     min-width: 50vw;
+    padding-left: 30px;
     list-style-type: '✓ ';
 }
 
@@ -101,9 +100,12 @@ div#video {
     background-color: #164C2E;
     align-items: center;
     margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
 h1 {
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     margin-top: 0px;
     font-family: 'Bebas Neue';
     font-size: 3em;
@@ -117,13 +119,14 @@ h2 {
 h3 {
     font-family: 'idroid';
     color: #246340;
-    background-image: linear-gradient(to right, #9dd3b585, #a1d4b815);
+    background-image: linear-gradient(to right, #9dd3b585, transparent);
 }
 
-p {
+main p {
     text-indent: 25px;
-    margin-left: 7px;
+    margin: 15px 0px;
     line-height: 28px;
+    text-align: justify;
 }
 
 p#bg {
@@ -136,11 +139,14 @@ p#bg {
 }
 
 p#subtitulo {
-    width: 395px;
+    max-width: 600px;
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
     margin: auto;
 }
 
-div {
+aside {
     background-color: #C5EBD6;
     border-radius: 10px;
     padding-bottom: 5px;
@@ -153,3 +159,16 @@ footer {
     background-color: #1A5C38;
     color: white;
 }
+
+img {
+    width: 100%;
+}
+
+img.pequena {
+    width: 40%;
+}
+
+main > strong {
+    color: #004916;
+}
+
