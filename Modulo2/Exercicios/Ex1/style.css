@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
             font-family: 'idroid';
             src: url('fontes/idroid.otf') format('opentype');
@@ -6,7 +8,6 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 header {
     color: white;
@@ -21,10 +22,15 @@ header > nav {
 }
 
 a {
-    color: #749B85;
+    font-weight: bold;
+    color: #004916;
 }
 
 strong {
+    color: #004916;
+}
+
+strong#foot{
     color: #84E1AD;
 }
 
@@ -39,6 +45,10 @@ a.nvg::after{
     content: none;
 }
 
+a#txt {
+    background-color: #62BF8C;
+}
+
 body {
     background-color: #84E1AD;
     min-height: 100vh;
@@ -51,7 +61,6 @@ nav {
 nav > a {
     color: white;
     text-decoration: none;
-    margin-left: 12px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -96,6 +105,8 @@ div#video {
 h1 {
     padding-top: 20px;
     margin-top: 0px;
+    font-family: 'Bebas Neue';
+    font-size: 3em;
 }
 
 h2 {
@@ -112,13 +123,14 @@ h3 {
 p {
     text-indent: 25px;
     margin-left: 7px;
+    line-height: 28px;
 }
 
 p#bg {
     margin-left: 0px;
     text-align: left;
     color: white;
-    background-color: #2FA866;
+    background-color: #175C33;
     padding: 10px 10px 10px 0px;
     border-radius: 10px 10px 0px 0px;
 }
