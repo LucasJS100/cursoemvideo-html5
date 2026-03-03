@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Passion One';
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 8vw;
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+main {
+    font-family: 'Sriracha';
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+.sessao-branca {
+    background-color: white;
+    padding: 50px 100px 50px 10px;
+    border: 1px solid black;
+}
+
+#sessao-imagem {
+    background-image: url(background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    padding: 10vh 5vw;
+    color: white;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+section#sessao-imagem p {
+    max-width: 500px;
+    margin-right: auto;
+    line-height: 2em;
+    padding-left: 10px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
